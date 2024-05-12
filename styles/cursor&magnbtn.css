@@ -1,0 +1,64 @@
+@font-face {
+     font-family: gunsan;
+     src: url(../fonts/gunsan.woff2);
+   }
+
+*{
+     margin: 0;
+     padding: 0;
+     font-family: "Gilroy";
+     box-sizing: border-box;
+}
+
+#main{
+     display: flex;
+     position: relative;
+     align-items: center;
+     justify-content: center;
+     width: 90vw;
+     margin: auto;
+     height: 80vh;
+     background-color: rgb(99, 99, 99);
+}
+
+.frame span{
+     height: 5vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     display: block;
+     font-size: 4vw;
+     padding: 0 5vw;
+     font-weight: 400;
+     font-family: gunsan;
+     color: white;
+     cursor: pointer;
+}
+
+.frame{
+     position: relative;
+     z-index: 4 !important;
+     width: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 300px;
+     border-radius: 50%;
+     border: 2px solid #ffffff;
+     color: #ffffff ;
+}
+
+#circle{
+     pointer-events: none;
+     position: fixed;
+     z-index: 1 !important;
+     top: 0;
+     left: 0;
+     transform: translate(-50%, -50%);
+     border-radius: 50%;
+     width: 1.5vw;
+     height: 1.5vw;
+     background-color: rgb(255, 255, 255) !important;
+     transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: twk;
+  src: url(../fonts/TWKLausanne-200.woff2);
+}
+
+.awardsdiv{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.awardsinnerdiv{
+  width: 90vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.awardsimgdiv{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+#awardscard{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#awimg{
+  width: 200px;
+  filter: grayscale(1);
+  transition: all 250 ms ease-in-out;
+}
+
+#awimg:hover{
+  width: 200px;
+  filter: grayscale(0);
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+@font-face {
+     font-family: rosseta;
+     src: url(../fonts/Rosseta.otf);
+}
+
+   
+  .marquee {
+     position: relative;
+     color: #fff;
+     width: 90vw;
+     margin: auto;
+     font-size: 150px;
+     text-transform: uppercase;
+     overflow: hidden;
+     margin-bottom: 10vh;
+     margin-top: 40vh;
+   }
+   
+   .marquee__inner {
+     display: flex;
+     width: fit-content;
+     flex: auto;
+     flex-direction: row;
+   }
+   
+   .marquee__part {
+     display: flex;
+     align-items: center;
+     flex-shrink: 0;
+     padding: 0 4px;
+     font-family: rosseta;
+     letter-spacing: 2px;
+   }

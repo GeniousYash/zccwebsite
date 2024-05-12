@@ -1,0 +1,135 @@
+@font-face {
+     font-family: wremena;
+     src: url(../fonts/Wremena_Light.otf);
+}
+
+@font-face {
+     font-family: inter;
+     src: url(../fonts/InterVariable.ttf);
+}
+
+.contspacetop{
+     width: 100vw;
+     height: 150px;
+}
+
+#sectioncontact{
+     width: 70vw;
+     margin: auto;
+}
+
+.contactrow{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     /* border: 2px solid yellow; */
+}
+
+.contactcolleft{
+     width: 30%;
+     height: 100%;
+     /* border: 2px solid green; */
+}
+
+.contactcolright{
+     width: 70%;
+     height: 100%;
+     /* border: 2px solid red; */
+}
+     
+.contacthero .contactrow .contactcolright>h1{
+     font-size: 5vw;  
+     font-family: wremena; 
+     font-weight: 200; 
+     padding: 50px 0px; 
+}
+
+.contacthero .contactrow .contactcolright>h1 span{
+     font-family: inter !important; 
+     font-weight: 400; 
+}
+
+.contactcolleft>p{
+     font-size: 20px;
+}
+
+.contactcolleft>p>span{
+     font-family: inter !important;
+}
+
+.form{
+     width: 100%;
+     /* border: 2px solid burlywood; */
+     display: flex;
+     flex-direction: column;
+}
+
+.form div{
+     width: 100%;
+}
+
+.form div input{
+     background-color: transparent;
+     color: white;
+     width: 100%;
+     padding: 10px 5px;
+     font-size: 25px;
+     border: none;
+     border-bottom: 1px solid #fff;
+     outline: none;
+}
+
+.form div input::placeholder{
+     color: #c8c8c8;
+     padding: 5px 5px;
+}
+
+#messagediv textarea{
+     width:100%;
+     outline: none;
+     border: none;
+     padding: 5px 5px;
+     font-size: 25px;
+     background-color: transparent;
+     color: #fff;
+     border-bottom: 1px solid #c8c8c8
+}
+
+#messagediv textarea::placeholder{
+     color: #c8c8c8;
+     padding: 5px 5px;
+}
+
+#emailbtn{
+     display: flex;
+     flex-direction: row;
+}
+
+#button{
+     width: 200px;
+     font-size: 25px;
+     color: white;
+     background-color: transparent;
+     border: none;
+     border-bottom: 1px solid #c8c8c8;
+     cursor: pointer;
+}
+
+#button:hover{
+     letter-spacing: 2px;
+     transition: all 250ms ease;
+}
+
+.contactsocial{
+     margin-top: 100px !important;
+}
+
+.contactsocial .contactrow .contactcolright h1{
+     margin-bottom: 20px;
+}
+
+.contactsocial .contactrow .contactcolright h1 span{
+     font-size: 35px;
+     font-family: wremena;
+     cursor: pointer;
+}

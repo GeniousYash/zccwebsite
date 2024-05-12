@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.scrollbar {
+    position: fixed;
+    right: 20px;
+    top: calc(50% - 10vh);
+    height: 20vh;
+    width: 2px;
+    border-radius: 2px;
+    background: rgb(203, 203, 203);
+}
+.scrollbar .scrollball {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    left: -4px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+}
+.scrollbar .scrollball span {
+    position: absolute;
+    left: 10px;
+    top: -4px;
+}

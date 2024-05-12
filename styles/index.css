@@ -1,0 +1,293 @@
+@font-face {
+     font-family: Tangerine;
+     src: url(../fonts/Tangerine_Bold.ttf);
+}
+
+@font-face {
+    font-family: wremena;
+    src: url(../fonts/Wremena_Light.otf);
+}
+
+@font-face {
+    font-family: rosseta;
+    src: url(../fonts/Rosseta.otf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../fonts/InterVariable.ttf);
+}
+
+
+#page7{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     margin-top: 100px;
+ }
+ 
+ #upper{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     width: 80%;
+ }
+ #letscreate{
+     width: 30%;
+     font-size: 100px;
+     color: rgb(255, 255, 255);
+ }
+ #letscreate>h3{
+     font-family: "Tangerine" !important;
+     line-height: 0.8;
+ }
+ #something{
+     width: 90%;
+     font-size: 200px;
+     color: rgb(255, 255, 255);
+ }
+ #something>h2{
+     font-family: "Tangerine" !important;
+ 
+ }
+ #lower{
+     width: 80%;
+     font-size: 130px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 5rem;
+     line-height: 0.9;
+     color: rgb(255, 255, 255);
+ }
+ #lower>h1{
+     font-family: "Tangerine" !important;
+ }
+ #lower>h3{
+     font-family: "Tangerine" !important;
+     font-size: 80px;
+     line-height: 0.6;
+ }
+
+ .text{
+    z-index: 2 !important;
+    position: relative;
+    color: white !important;
+ }
+
+ button {
+     padding: 15px 25px;
+     border: unset;
+     border-radius: 15px;
+     color: #212121;
+     z-index: 1;
+     background: rgb(61, 178, 178);
+     position: relative;
+     font-weight: 1000;
+     font-size: 17px;
+     -webkit-box-shadow: 4px 8px 19px -3px rgb(0, 89, 89);
+     box-shadow: 4px 8px 19px -3px rgb(0, 89, 89);
+     transition: all 250ms;
+     overflow: hidden;
+    }
+    
+    button::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 0;
+     border-radius: 15px;
+     background-color: rgb(9, 71, 71);
+     z-index: -1;
+     -webkit-box-shadow: 4px 8px 19px -3px rgb(0, 89, 89);
+     box-shadow: 4px 8px 19px -3px rgb(0, 89, 89);
+     transition: all 250ms
+    }
+    
+    button:hover {
+     color: #e8e8e8;
+    }
+    
+    button:hover::before {
+     width: 100%;
+    }
+
+
+    .bannerpara{
+        position: relative;
+        margin: auto;
+        text-align: justify;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bannerpara h2{
+        text-indent: 500px;
+        font-family: wremena;
+        font-size: 40px;
+        font-weight: 100;
+    }
+
+
+    .aboutus{
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid blue; */
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    .upper{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid red; */
+    }
+
+    .upper .left{
+        width: 40%;
+        /* border: 2px solid green; */
+    }
+
+    .upper .left p{
+        font-size: 30px;
+        font-family: inter;
+        font-weight: 600;
+    }
+    
+    .upper .right{
+        width: 60%;
+        /* border: 2px solid yellow; */
+    }
+
+    .upper .right .firsth3{
+        font-size: 25px;
+        text-align: justify;
+        font-family: wremena;
+        font-weight: 100;
+    }
+    
+    .upper .right .sech3{
+        padding: 20px 0px;
+        font-size: 25px;
+        text-align: justify;
+        font-family: wremena;
+        font-weight: 100;
+    }
+
+    
+    .lower{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+
+    .lower:nth-child(1){
+        flex: 2;
+    }
+
+    .lower .left{
+        width: 40%;
+    }
+
+
+    .lower .left p{
+        font-size: 20px;
+        font-family: inter;
+        font-weight: 600;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .lower .left p span:nth-child(1) {
+        flex: 1;
+    }
+
+    .lower .left p span:nth-child(2) {
+        flex: 3;
+        font-family: wremena;
+        text-transform: none;
+        font-size: 1em;
+    }
+    
+    .lower .right{
+        width: 60%;
+        height: auto;
+    }
+
+    .lower .right .image{
+        width: 100%;
+    }
+
+    .myimg{
+        width: 80%;
+        object-fit: cover;
+    }
+
+
+
+
+
+
+
+
+
+
+    .accordion__container{
+        width: 100%;
+   }
+    .accordion {
+        border-bottom: 1px solid #ebebeb;
+        cursor: default;
+        margin: 0 auto;
+        max-width: 1130px;
+   }
+   .accordion:not(.accordion--open):hover .accordion__title {
+        color: #00e5ff;
+   }
+   .accordion:not(.accordion--open):hover svg {
+        transform: rotate3d(0, 0, 1, 90deg);
+   }
+   .accordion__title {
+        align-items: center;
+        color: #fff;
+        display: flex;
+        font-size: 22px;
+        font-family: inter;
+        font-weight: 700;
+        justify-content: space-between;
+        line-height: 27px;
+        padding: 16px 0;
+        transition: color 0.3s ease-in;
+   }
+   .accordion__title span, .accordion__content p{
+    font-family: inter;
+   }
+   .accordion__content {
+        color: #ffffff;
+        display: none;
+        font-size: 16px;
+        padding: 0 0 16px;
+   }
+   .accordion__content *:last-child {
+        margin: 0;
+   }
+   .accordion--open .accordion__title {
+        color: #00e5ff;
+   }
+   .accordion--open .accordion__content {
+        display: block;
+}

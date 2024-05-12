@@ -1,2 +1,1 @@
-# zccwebsite
-mywebsite
+# zcc

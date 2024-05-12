@@ -1,0 +1,101 @@
+@font-face {
+     font-family: ap;
+     src: url(../fonts/apercu-bold-pro.woff2);
+}
+
+footer{
+     /* position: relative; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     margin: 100px 0px;
+}
+
+.companyName{
+     width: 90vw;
+     color: white;
+}
+
+.companyName>h1{
+     font-family: ap;
+     font-size: 12vw;
+     z-index: 2;
+     position: relative;
+}
+
+.belowcn{
+     width: 70vw;
+     text-transform: uppercase;
+     border-bottom: 2px solid white;
+     margin-top: 50px;
+     display: flex;
+     justify-content: center;
+}
+
+.belowcn p{
+     font-size: 2.5vw;
+     font-family: ap;
+     letter-spacing: 5px;
+}
+
+.footerbtn{
+     width: 90vw;
+     height: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-top: 100px;
+}
+
+.footerbtn .left{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-start;
+}
+
+.footerbtn .left a p{
+     font-family: ap !important;
+}
+
+.footerbtn .left a p:hover{
+     letter-spacing: 5px;
+     transition: all 250ms ease;
+     color: rgb(0, 0, 0);
+     z-index: 4 !important;
+}
+
+.footerbtn .left a:hover{
+     z-index: 4 !important;
+}
+
+.footerbtn div{
+     width: 30%;
+     height: 100%;
+     margin: 50px 50px;
+     align-items: flex-end;
+}
+
+.footerbtn div a{
+     text-decoration: none;
+     color: white;
+     font-size: 30px;
+     font-family: ap;
+     text-transform: uppercase;
+}
+
+.footerbtn .right{
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+     height: 100%;
+}
+
+.footerbtn .right a:hover{
+     letter-spacing: 5px;
+     transition: all 250ms ease;
+     color: rgb(0, 0, 0);
+     z-index: 4;
+}
