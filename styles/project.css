@@ -53,3 +53,106 @@
   filter: grayscale(0);
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transition: 0.5s background-color;
+}
+
+.imgsc {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+a,
+p {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.5s color;
+}
+
+.gallery {
+  position: relative;
+  width: 100%;
+  display: flex;
+  z-index: 0;
+}
+
+.images {
+  position: relative;
+  top: 0;
+  width: 75%;
+}
+
+.item {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+.item-img {
+  width: 400px;
+  height: 550px;
+}
+
+.item-copy {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+.item-preview {
+  position: relative;
+  width: 100px;
+  height: 125px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.hero-img {
+  margin-bottom: 2em;
+}
+
+.wrapper.dark-theme,
+.wrapper.wrapper.dark-theme .minimap {
+  background-color: #636363;
+}
+
+.wrapper.dark-theme a,
+.wrapper.dark-theme p,
+.wrapper.dark-theme h1 {
+  color: #000;
+}
+
+@media (max-width: 900px) {
+  .item {
+    width: 400px;
+    height: 500px;
+  }
+}
