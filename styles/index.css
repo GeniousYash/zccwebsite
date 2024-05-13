@@ -291,3 +291,92 @@
    .accordion--open .accordion__content {
         display: block;
 }
+
+
+@media screen and (min-width: 300px) and (max-width:500px){
+    .bannerpara{
+        width: 80vw !important;
+        display: flex;
+    }
+    .bannerpara h2{
+        text-indent: 100px;
+        font-size: 20px;
+    }
+    .bannerfooter{
+        width: 80vw;
+        margin-left: 50px;
+    }
+    .aboutus{
+        width: 85vw;
+    }
+    .aboutus .upper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .upper .right{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .upper .right h3{
+        font-size: 20px !important;
+
+    }
+    .lower{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .lower .left{
+        width: 100%;
+    }
+    .lower .left p{
+        font-size: 20px !important;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .lower .left p span{
+        font-size: 15px !important;
+    }
+    .lower .right{
+        margin-top: 100px;
+        width: 100%;
+    }
+    .lower .right .image{
+        width: 100%;
+    }
+    .lower .right .image img{
+        width: 100%;
+    }
+    .lower .right h1{
+        font-size: 25px !important;
+        margin: 40px 0px 20px 0px;
+    }
+    .accordion__content p{
+        text-align: justify ;
+    }
+    #page7{
+        width: 90vw;
+    }
+    #page7 #upper{
+        width: 100%;
+    }
+    #page7 #upper .hov1{
+        font-size: 35px;
+    }
+    #page7 #upper .hov2{
+        font-size: 80px;
+    }
+    #page7 #lower{
+        width: 100%;
+    }
+    #page7 #lower .hov3{
+        font-size: 80px;
+        margin-left: -50px;
+    }
+    #page7 #lower .hov4{
+        font-size: 40px;
+    }
+}
+

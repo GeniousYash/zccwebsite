@@ -99,3 +99,30 @@ footer{
      color: rgb(0, 0, 0);
      z-index: 4;
 }
+
+@media screen and (min-width: 300px) and (max-width:500px){
+     footer{
+          width: 90vw;
+          margin-left: 0px !important;
+     }
+     .divfoot{
+          width: 90vw;
+          display: flex;
+          flex-direction: column;
+     }
+     .footerbtn{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 0px !important;
+     }
+     .footerbtn .left{
+          width: 100%;
+          margin-top: -50px;
+          margin-left: 0px;
+     }
+     .footerbtn .right{
+          margin-left: 0px !important;
+          margin-top: 0px !important;
+     }
+}

@@ -62,3 +62,22 @@
      background-color: rgb(255, 255, 255) !important;
      transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
 }
+
+@media screen and (min-width: 300px) and (max-width:500px){
+     #circle{
+          display: none;
+     }
+     .frame{
+          width: 150px;
+          height: 150px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+     .frame .hov{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 30px;
+     }
+}
