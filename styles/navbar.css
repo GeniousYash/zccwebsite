@@ -304,3 +304,17 @@
        display: none;
      }
    }
+
+ @media screen and (min-width: 300px) and (max-width:500px){
+    .nav{
+      width: 90vw;
+    }
+    .nav-link a{
+      font-size: 35px;
+    }
+    .nav-socials{
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+    }
+   }
