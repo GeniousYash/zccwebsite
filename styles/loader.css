@@ -126,12 +126,28 @@ body{
 }
 
 @media screen and (min-width: 300px) and (max-width:500px){
-  .img img{
-    width: 25vw;
-    height: 25vh;
+  .loader{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  #loader-logo img{
-    width: 25vw !important;
-    height: 25vh !important;
+
+  .loader-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .img{
+    position: relative;
+    flex: 1;
+  }
+  .loader-imgs .img img{
+    width: 50px;
+    height: 100px;
   }
 }
