@@ -127,11 +127,11 @@ body{
 
 @media screen and (min-width: 300px) and (max-width:500px){
   .img img{
-    width: 45vw;
-    height: 45vh;
+    width: 25vw;
+    height: 25vh;
   }
   #loader-logo img{
-    width: 45vw;
-    height: 45vh;
+    width: 25vw !important;
+    height: 25vh !important;
   }
 }
