@@ -133,3 +133,21 @@
      font-family: wremena;
      cursor: pointer;
 }
+
+
+@media screen and (min-width: 300px) and (max-width:500px){
+     .contactrow{
+          display: flex;
+          flex-direction: column;
+     }
+     .form{
+          width: 80vw;
+          margin-left: -20px;
+     }
+     .contactcolright{
+          margin-top: 50px;
+     }
+     footer{
+          margin-left: 50px !important;
+     }
+}

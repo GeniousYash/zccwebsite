@@ -193,3 +193,36 @@ html, body {
      background-color: #fff;
      width: 3rem;
    }
+
+
+   @media screen and (min-width: 300px) and (max-width:500px){
+     .abdiv1 h1{
+          font-size: 20px;
+     }
+     .abdiv2 h3{
+          font-size: 20px;
+     }
+     #abfeatures{
+          width: 80vw;
+     }
+     .abdiv11 h3{
+          font-size: 30px;
+     }
+     #abfeaturesdown p{
+          font-size: 15px;
+     }
+
+
+     .webimg{
+          margin-bottom: 0px !important;
+     }
+
+     .container{
+          display: none;
+     }
+
+     footer{
+          margin-left: 50px !important;
+     }
+
+   }

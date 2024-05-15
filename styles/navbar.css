@@ -305,7 +305,7 @@
      }
    }
 
- @media screen and (min-width: 300px) and (max-width:500px){
+   @media screen and (min-width: 300px) and (max-width:500px){
     .nav{
       width: 90vw;
     }
@@ -313,6 +313,8 @@
       font-size: 35px;
     }
     .nav-socials{
-      display: none;
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
     }
    }

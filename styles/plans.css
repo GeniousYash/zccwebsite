@@ -2,7 +2,6 @@ html {
 	overflow-y: scroll;
 	height: 100%;
 	-webkit-overflow-scrolling: touch;
-	overflow-scrolling: touch;
 }
 body {
 	overflow-y: visible;
@@ -102,4 +101,30 @@ html, body {
 }
 
 
-   
+@media screen and (min-width: 300px) and (max-width:500px){
+     .pldiv1{
+          width: 80vw;
+          font-size: 15px;
+          text-align: justify;
+     }
+     .pldiv2 h3{
+          font-size: 15px;
+          text-align: justify;
+     }
+     .pldiv11{
+          width: 90vw;
+     }
+     .pldiv11 h3{
+          font-size: 25px;
+     }
+     #plfeaturesdown{
+          width: 70vw;
+          margin-left: 20px;
+     }
+     #plfeaturesdown p{
+          font-size: 20px;
+     }
+     footer{
+          margin-left: 50px !important;
+     }
+}

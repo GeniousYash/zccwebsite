@@ -156,3 +156,34 @@ p {
     height: 500px;
   }
 }
+
+
+@media screen and (min-width: 300px) and (max-width:500px){
+  .wrapper{
+    width: 100vw;
+  }
+  .gallery{
+    width: 100%;
+  }
+  .images{
+    width: 100%;
+  }
+  .item{
+    width: 50%;
+    height: 300px;
+  }
+  .item-img img{
+    width: auto;
+    height: 50%;
+  }
+
+  .awardsimgdiv{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+  }
+
+  footer{
+    margin-left: 50px !important;
+  }
+}
